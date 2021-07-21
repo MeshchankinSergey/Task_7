@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'Roboto-Regular';
     src: url('fonts/Roboto-Regular.ttf');
+    font-family: "Roboto-Regular";
     font-style: normal;
 }
 
 * {
 margin: 0;
 padding: 0;
-font-family: 'Roboto-Regular';
+font-family: "Roboto-Regular";
 box-sizing: border-box;
 text-decoration: none;
 }
@@ -26,19 +26,25 @@ text-decoration: none;
 }
 
 .menu-container {
-    padding-top: 67px;
+    padding-top: 66px;
     display: flex;
     justify-content: space-between;
+
 }
 
-.logo {padding-left: 47px;}
+.logo {
+    padding-left: 53px;
+}
 
 .header-menu {
     padding-right: 0px;
     padding-top: 6px;
 }
 
-.menu {display: flex;}
+.menu {
+    display: flex;
+}
+
 
 nav ul li {
     text-transform: uppercase;
@@ -48,12 +54,13 @@ nav ul li {
 }
 
 nav ul li a {
-    margin-right: 55px;
-    font-weight: 700;
+    color: black;
+    margin-right: 48px;
+    font-weight: 500px;
     text-decoration: none;
 }
 
-nav ul li a:hover {color:burlywood;}
+nav ul li a:hover {color:#3d689c;}
 
 .section-container {
     display: flex;
@@ -64,5 +71,67 @@ nav ul li a:hover {color:burlywood;}
 
 .laptop {
     padding-left: 134px;
-    padding-top: 20px;
+    padding-top: 23px;
+}
+
+.caption {
+    font-size: 48px;
+    margin-bottom: 48px;
+    letter-spacing: 2px;
+}
+
+.description {
+    color: #727272;
+    margin-bottom: 50px;
+    line-height: 26px;
+    width: 580px;
+    font-size: 16px;
+}
+
+.button {
+    text-transform: uppercase;
+    width: 228px;
+    height: 70px;
+    background-color: #34547A;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+
+.button:hover {background-color: #243b58;}
+
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.progress-title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.skills-img {
+    margin-right: 20px;
+    width: 555px;
+    height: 450;
+}
+
+.skill {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.skills-item {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+progress {
+    height: 19px;
+    width: 445px;
 }
