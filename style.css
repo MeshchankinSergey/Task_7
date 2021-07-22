@@ -147,7 +147,7 @@ nav ul li a:hover {color:#3d689c;}
     color: white;
 }
 
-#digit {
+.text-project .digit {
     font-weight: 500px;
     font-size: 21px;
     line-height: 25px;
@@ -194,11 +194,6 @@ progress {
     height: 1004px;
     padding: 0 20px;
     margin: 0 auto;
-}
-
-.work-block {
-    display: inline-flexbox;
-    align-items: center;
 }
 
 .how_work {
@@ -264,4 +259,129 @@ progress {
 
 .image-wrapper:hover::after {
     opacity: 0.8;
+}
+
+.micro-section {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.micro-block {
+    display: flex;
+    margin-top: 72px;
+    margin-bottom: 100px;
+}
+
+.image-microsoft {
+    width: 255px;
+    height: 120px;
+    margin-left: 30px;
+}
+
+.message-section {
+    background-color: #EEEFF1;
+    max-width: 1920px;
+    height: 762px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.web {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.web_description {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+
+.input-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 255px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    padding-left: 20px;
+    border: none;
+}
+
+#mail {
+    margin-left: 30px;
+}
+
+textarea {
+    width: 540px;
+    height: 175px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-top: 17px;
+    resize: none;
+    border: none;
+}
+
+#name, #msg {
+    margin-left: 340px;
+}
+
+.button-send {
+    text-transform: uppercase;
+    width: 190px;
+    height: 55px;
+    background-color: #34547A;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    margin-left: 510px;
+}
+
+.button-send:hover {background-color: #243b58;}
+
+.footer-section {
+    background-color: #34547A;
+    max-width: 1920px;
+    height: 151px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-size: 13px;
+    line-height: 21px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.autor-name {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 50px;
+}
+
+.vk-logo img {
+    padding-top: 70px;
+    margin-right: 22px;
 }
