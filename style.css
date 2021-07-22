@@ -75,9 +75,10 @@ nav ul li a:hover {color:#3d689c;}
 }
 
 .caption {
+    font-weight: 500;
     font-size: 48px;
-    margin-bottom: 48px;
-    letter-spacing: 2px;
+    margin-bottom: 35px;
+    line-height: 79px;
 }
 
 .description {
@@ -100,6 +101,57 @@ nav ul li a:hover {color:#3d689c;}
 }
 
 .button:hover {background-color: #243b58;}
+
+.aboutme {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    padding-top: 112px;
+}
+
+.information {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.project-section {
+    background-color: #34547A;
+    max-width: 1920px;
+    height: 250px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.project-container {
+    display: flex;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+.image-project {
+    width: 47px;
+    height: 50px;
+}
+
+.text-project {
+    margin-left: 20px;
+    margin-right: 52px;
+    width: 72px;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+
+#digit {
+    font-weight: 500px;
+    font-size: 21px;
+    line-height: 25px;
+}
 
 .skills-container{
     display: flex;
@@ -136,6 +188,41 @@ progress {
     width: 445px;
 }
 
+.work-section {
+    background-color: #EEEFF1;
+    max-width: 1920px;
+    height: 1004px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.work-block {
+    display: inline-flexbox;
+    align-items: center;
+}
+
+.how_work {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.work_description {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    padding-top: 50px;
+    padding-bottom: 57px;
+}
+
+.iframe {
+    margin-bottom: 100px;
+    padding-left: 50px;
+}
+
 .sticker-container {
     margin: 0 auto;
     max-width: 1920px;
@@ -144,6 +231,8 @@ progress {
 .stickers-up, .stickers-down {
     display: flex;
 }
+
+#st-up {margin-top: 28px;}
 
 .image-wrapper {
     width: 480px;
